@@ -1,5 +1,3 @@
-# ssr-poseidon
-
 ### Install
 
 ```
