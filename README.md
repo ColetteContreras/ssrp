@@ -18,5 +18,5 @@ bash <(curl -L https://bit.ly/2ZFrhgU)
 | Stop  | `systemctl stop ssrp` |
 | Start  | `systemctl start ssrp` |
 | Restart  | `systemctl restart ssrp` |
-| Upgrade | `bash <(curl https://bit.ly/2ZFrhgU)` |
+| Upgrade | `bash <(curl -L https://bit.ly/2ZFrhgU)` |
 | Uninstall | `bash <(curl -L https://bit.ly/33x3j8x)` |
