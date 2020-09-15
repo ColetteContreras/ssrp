@@ -13,7 +13,7 @@ bash <(curl -L https://bit.ly/2ZFrhgU)
 
 | Function | command | 
 |------------|--------|
-| Show logs  | `journalctl -x -n 300 --no-pager -u ssrp` |
+| Show logs  | `journalctl -n 100 -f --no-pager -u ssrp` |
 | Show status  | `systemctl status ssrp` |
 | Stop  | `systemctl stop ssrp` |
 | Start  | `systemctl start ssrp` |
