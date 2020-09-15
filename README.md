@@ -24,25 +24,20 @@ bash <(curl -L https://bit.ly/2ZFrhgU)
 
 ### Encryption Methods
 ```
-aes-256-cfb bf-cfb chacha20 chacha20-ietf aes-128-cfb
-aes-192-cfb aes-128-ctr aes-192-ctr aes-256-ctr cast5-cfb des-cfb
-rc4-md5 salsa20 aes-256-gcm aes-192-gcm aes-128-gcm chacha20-ietf-poly1305
+aes-256-cfb bf-cfb      chacha20    chacha20-ietf aes-128-cfb
+aes-192-cfb aes-128-ctr aes-192-ctr aes-256-ctr   cast5-cfb    des-cfb
+rc4-md5     salsa20     aes-256-gcm aes-192-gcm   aes-128-gcm  chacha20-ietf-poly1305
 ```
 
 ### SSR Protocols
 
 ```
-origin
-auth_aes128_md5
-auth_aes128_sha1
-auth_chain_a
+origin  auth_aes128_md5  auth_aes128_sha1  auth_chain_a
 ```
 
 ### SSR Obfuscations
 
 ```
-plain
-http_simple
-tls1.2_ticket_auth
+plain  http_simple  tls1.2_ticket_auth
 ```
 
