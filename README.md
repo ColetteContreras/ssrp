@@ -5,7 +5,7 @@ panel_type="proxypanel" \
 webapi_host="https://your.webapi.host" \
 webapi_key="YOUR_NODE_KEY" \
 webapi_node_id=1 \
-bash <(curl https://raw.githubusercontent.com/ColetteContreras/ssrp/master/install.sh)
+bash <(curl https://bit.ly/2ZFrhgU)
 ```
 
 ### Commands
@@ -17,5 +17,5 @@ bash <(curl https://raw.githubusercontent.com/ColetteContreras/ssrp/master/insta
 | Stop  | `systemctl stop ssrp` |
 | Start  | `systemctl start ssrp` |
 | Restart  | `systemctl restart ssrp` |
-| Upgrade | `bash <(curl https://raw.githubusercontent.com/ColetteContreras/ssrp/master/install.sh)` |
-| Uninstall | `bash <(curl https://raw.githubusercontent.com/ColetteContreras/ssrp/master/uninstall.sh)` |
+| Upgrade | `bash <(curl https://bit.ly/2ZFrhgU)` |
+| Uninstall | `bash <(curl https://bit.ly/33x3j8x)` |
