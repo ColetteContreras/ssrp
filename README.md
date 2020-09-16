@@ -1,3 +1,5 @@
+[Documentation](https://github.com/ColetteContreras/ssrp/wiki)
+
 ### Install
 
 ```
