@@ -8,6 +8,7 @@ panel_type="proxypanel" \
 webapi_host="https://your.webapi.host" \
 webapi_key="YOUR_NODE_KEY" \
 webapi_node_id=1 \
+license_key="" \
 bash <(curl -L https://bit.ly/2ZFrhgU)
 ```
 
