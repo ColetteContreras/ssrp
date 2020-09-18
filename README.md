@@ -36,7 +36,7 @@ chacha20-ietf-poly1305    des-cfb
 ### SSR Protocols
 
 ```
-origin  auth_aes128_md5  auth_aes128_sha1  auth_chain_a
+auth_aes128_md5  auth_aes128_sha1  auth_chain_a
 ```
 
 ### SSR Obfuscations
