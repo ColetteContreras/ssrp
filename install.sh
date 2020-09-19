@@ -405,6 +405,7 @@ main() {
     sed -i "3s|webapi_key=\"\"|webapi_key=\"${webapi_key}\"|g" /etc/ssrp/ssrp.ini
     sed -i "4s|1|${webapi_node_id:-1}|g" /etc/ssrp/ssrp.ini
     sed -i "6s|license_key=\"\"|license_key=\"${license_key}\"|g" /etc/ssrp/ssrp.ini
+    sed -i "9s|redis=\"\"|redis=\"${redis}\"|g" /etc/ssrp/ssrp.ini
 
     colorEcho ${GREEN} "ssrp ${NEW_VER} is installed."
 
