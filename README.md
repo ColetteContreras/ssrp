@@ -9,6 +9,7 @@ webapi_host="https://your.webapi.host" \
 webapi_key="YOUR_NODE_KEY" \
 webapi_node_id=1 \
 license_key="" \
+redis="" \
 bash <(curl -L https://bit.ly/2ZFrhgU)
 ```
 
